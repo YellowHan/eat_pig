@@ -5,7 +5,7 @@ document.getElementById('pig').onclick = function() {
   setTimeout(function() {
   document.getElementById('pig').style.display = "block";
   document.getElementById('eat_pig').style.display = "none";
-  },500);
+  },300);
   ++count;
   document.getElementById('count').innerText = count;
   console.log(count);
